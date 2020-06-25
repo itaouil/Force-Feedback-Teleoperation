@@ -1,0 +1,42 @@
+shape_1:
+  type: sphere
+  size: 
+    d: 0.35 # diameter
+
+  pose:
+    x: 1.19
+    y: 0.7
+    z: 0.09
+
+
+######################
+# SUPPORTED GEOMETRIES
+# w/ related sizes
+###
+
+# type: sphere
+# size: 
+#  d: [double] # diameter
+
+# type: cylinder
+# size: 
+#  d: [double] # diameter
+#  l: [double] # length
+
+# type: box
+# size: 
+#  x: [double] # x-axis
+#  y: [double] # y-axis
+#  z: [double] # z-axis
+
+# type: plane
+# size: 
+#  orientation: [int] 
+#  w: [double] # width
+#  l: [double] # length
+
+# (note -> plane)
+# The allowed values for the orientation are:
+# 0 = along z-axis 
+# 1 = along x-axis
+# 2 = along y-axis 

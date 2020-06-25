@@ -1,0 +1,16 @@
+<launch>
+
+<!-- Franka Marker Interactive --> 
+<node pkg="force_feedback_controller" type="franka_marker" respawn="true" name="franka_marker" output="screen"/>
+
+<!-- Franka Controller (File Publisher) --> 
+<node pkg="force_feedback_controller" type="franka_controller" respawn="true" name="franka_controller" output="screen"/>
+
+<!-- Franka Controller (Robot Communication) UNCOMMENT IF DIRECT COMMUNICATION--> 
+<!--<node pkg="force_feedback_controller" type="franka_controller" respawn="true" name="franka_controller" output="screen" args="192.168.21.1"/>-->
+
+<!-- UR10e Controller --> 
+<node pkg="force_feedback_controller" type="ur10e_controller" respawn="true" name="ur10e_controller" output="screen"/>
+
+</launch>
+

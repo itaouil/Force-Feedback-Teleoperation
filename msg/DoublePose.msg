@@ -1,0 +1,2 @@
+geometry_msgs/Pose surface_pose
+geometry_msgs/Pose current_pose
